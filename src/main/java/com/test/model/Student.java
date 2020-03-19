@@ -5,6 +5,8 @@ public class Student {
 
     private String age;
 
+    private String score;
+
     public String getUserName() {
         return userName;
     }
@@ -19,5 +21,13 @@ public class Student {
 
     public void setAge(String age) {
         this.age = age;
+    }
+
+    public String getScore() {
+        return score;
+    }
+
+    public void setScore(String score) {
+        this.score = score;
     }
 }
