@@ -7,6 +7,16 @@ public class Student {
 
     private String score;
 
+    private String gender;
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
     public String getUserName() {
         return userName;
     }
